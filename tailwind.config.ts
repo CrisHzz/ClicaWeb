@@ -13,6 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+
+      backgroundSize: {
+        'header-size': '1441px 88px',
+      },
+      fontFamily: {
+        'carter-one': ['Carter One', 'cursive'],
+      },
     },
   },
   plugins: [],

@@ -2,32 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* From Uiverse.io by barisdogansutcu */ 
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid black; /* Modified border color */
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  
+  button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(41, 100%, 50%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(199, 34, 34) 0px 7px 29px 0px;
   }
-}
+  
+  button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Cada sección ocupa el 100% del viewport height */
+    scroll-snap-align: start;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+  }
+  
+  body {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+  }
