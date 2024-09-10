@@ -15,7 +15,12 @@ export default function HomePage() {
                   ❝Tu cicla a un click❞
                 </h2>
                 <p className="max-w-[800px] text-muted-foreground md:text-xl">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, nostrum inventore quae sequi, suscipit illum necessitatibus dolorem labore quam perspiciatis quidem iure quasi praesentium! Repudiandae nemo a debitis porro laudantium?
+                  CLIKA es un software de alquiler de bicicletascompartidas que
+                  busca revolucionar la movilidad en la ciudad. Nuestro software
+                  permite a los usuarios alquilar bicicletas de forma rápida ,
+                  recomendarle rutas para que conozca la ciudad y brinda
+                  estrategias económicas para aumentar el uso de este medio de
+                  transporte.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -39,10 +44,13 @@ export default function HomePage() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl">
-                  Sección 2: Propuestas
+                  Nuestra propuesta como empresa
                 </h2>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  Nuestra propuesta como empresa.
+                  <br />
+                  Queremos hacer la diferencia con los demás y esto es gracias a
+                  nuestros 4 pilares en los que se base el software, gracias a
+                  esto brindamos una alternativa diferente al mercado.{" "}
                 </p>
               </div>
             </div>

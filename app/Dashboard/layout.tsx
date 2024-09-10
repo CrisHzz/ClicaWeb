@@ -15,8 +15,7 @@ export default function DashBoardLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-      </head>
+      <head></head>
       <body className={inter.className}>
         {children}
         <header className="bg-white h-[88px] w-full bg-no-repeat bg-center flex items-center justify-between px-4 shadow-md">

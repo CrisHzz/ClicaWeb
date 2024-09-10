@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "../globals.css";
+import MapComponent from "@/components/MapComponent";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +16,7 @@ export default function DailyRoutesLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-      </head>
+      <head></head>
       <body className={inter.className}>
         {children}
         <header className="bg-white h-[88px] w-full bg-no-repeat bg-center flex items-center justify-between px-4 shadow-md">
@@ -26,7 +26,23 @@ export default function DailyRoutesLayout({
               C L I K A
             </span>
           </div>
+          <div className="border-b border-gray-300 pb-2">
+            <button className="btn">Rentar 🚲</button>
+            <button className="btn">Rutas sugueridas 📍</button>
+          </div>
+          <div className="flex gap-4 border-b border-gray-300 pb-2">
+            <button className="btn">Mis reservas 🗓️</button>
+            <button className="btn">Mi perfil 👤</button>
+          </div>
         </header>
+        <main className="flex">
+          <div className="w-2/4 -ml-1">{children}</div>
+
+          {/* Mapa */}
+            <div className="w-1/2 h-[500px] ml-auto mt-3">
+            <MapComponent apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY} />
+            </div>
+        </main>
       </body>
     </html>
   );
