@@ -19,14 +19,18 @@ export default function Header() {
       </div>
       {pathname === "/home" && (
         <>
-          <div className="border-b border-gray-300 pb-2">
+          <div className="border-b border-gray-300 pb-2 flex gap-2">
+            {" "}
+            {/* Agregado gap */}
             <a href="#seccion_2">
-              <button className="btn">Nuestra propuesta</button>
+              <button className="btn ml-7">Nuestra propuesta</button>{" "}
+              {/* Agregado margen izquierdo */}
             </a>
             <a href="#seccion_3">
-              <button className="btn">Tarifas</button>
-            </a>
+              <button className="btn ml-10">Tarifas</button>
+            </a> 
           </div>
+
           <div className="flex gap-4 border-b border-gray-300 pb-2">
             <button className="btn">Iniciar Sesion</button>
             <button className="btn">Registrarse</button>
