@@ -1,13 +1,15 @@
+import Header from "@/components/Header";
 import Card from "@/components/Card";
 
 export default function HomePage() {
   return (
     <main className="flex-1">
+      <Header />
       {/* Sección 1 */}
       <section className="w-full py-4 md:py-8 lg:py-16 mt-6 md:mt-12 lg:mt-18 relative">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[2fr_1fr] lg:gap-12 xl:grid-cols-[3fr_1fr]">
-            <div className="flex flex-col justify-center space-y-4 border-2 border-orange-500 py-44 px-16 shadow-lg">
+            <div className="flex flex-col justify-center space-y-4 border-2 border-orange-500 py-12 px-4 md:py-44 md:px-16 shadow-lg">
               <div className="space-y-10">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none mt-[-70px]">
                   CLIKA
@@ -15,9 +17,9 @@ export default function HomePage() {
                   ❝Tu cicla a un click❞
                 </h2>
                 <p className="max-w-[800px] text-muted-foreground md:text-xl">
-                  CLIKA es un software de alquiler de bicicletascompartidas que
+                  CLIKA es un software de alquiler de bicicletas compartidas que
                   busca revolucionar la movilidad en la ciudad. Nuestro software
-                  permite a los usuarios alquilar bicicletas de forma rápida ,
+                  permite a los usuarios alquilar bicicletas de forma rápida,
                   recomendarle rutas para que conozca la ciudad y brinda
                   estrategias económicas para aumentar el uso de este medio de
                   transporte.
@@ -35,10 +37,7 @@ export default function HomePage() {
       </section>
 
       {/* Sección 2 */}
-      <section
-        className="w-full py-12 md:py-24 lg:py-32 relative"
-        id="seccion_2"
-      >
+      <section className="w-full py-12 md:py-24 lg:py-32 relative" id="seccion_2">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
@@ -50,11 +49,11 @@ export default function HomePage() {
                   <br />
                   Queremos hacer la diferencia con los demás y esto es gracias a
                   nuestros 4 pilares en los que se base el software, gracias a
-                  esto brindamos una alternativa diferente al mercado.{" "}
+                  esto brindamos una alternativa diferente al mercado.
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-20">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-12">
               <div className="mt-4">
                 <Card
                   heading="Intuitivo♿"
@@ -64,7 +63,7 @@ export default function HomePage() {
               <div className="mt-4">
                 <Card
                   heading="Diverso🎨"
-                  para="Nuestra mision es darle muchas alternativas de rutas al cliente , dandole una oportunidad para que se mueva y conozca la ciudad diferente"
+                  para="Nuestra mision es darle muchas alternativas de rutas al cliente, dandole una oportunidad para que se mueva y conozca la ciudad diferente"
                 />
               </div>
               <div className="mt-4">
@@ -85,10 +84,7 @@ export default function HomePage() {
       </section>
 
       {/* Sección 3 */}
-      <section
-        className="w-full py-12 md:py-24 lg:py-32 relative"
-        id="seccion_3"
-      >
+      <section className="w-full py-12 md:py-24 lg:py-32 relative" id="seccion_3">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
@@ -107,14 +103,10 @@ export default function HomePage() {
       </section>
 
       {/* Sección 4: Términos y Condiciones */}
-      <section className="w-full bg-black text-white py-20 flex items-center justify-center">
-        <div className="text-center space-y-2">
-          <h2 className="text-xl font-bold tracking-tight sm:text-2xl">
-            CLIKA &copy; 2024
-          </h2>
-          <div className="flex justify-center space-x-4 text-sm sm:text-base">
-            Leyes Políticas Privacidad
-          </div>
+      <section className="w-full bg-black text-white py-20 flex flex-col items-center justify-center space-y-4">
+        <h2>CLIKA &copy; 2024</h2>
+        <div className="flex justify-center space-x-4 text-sm sm:text-base">
+          Leyes Políticas Privacidad
         </div>
       </section>
     </main>
