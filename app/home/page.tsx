@@ -93,7 +93,7 @@ export default function HomePage() {
       </section>
 
       {/* Sección 4: Términos y Condiciones */}
-      <section className="w-full bg-black text-white py-20 flex flex-col items-center justify-center space-y-4">
+      <section className="w-full bg-gradient-to-r from-black to-purple-950 text-white py-20 flex flex-col items-center justify-center space-y-4">
         <h2>CLIKA © 2024</h2>
         <div className="flex justify-center space-x-4 text-sm sm:text-base">
           Leyes Políticas Privacidad
@@ -102,3 +102,5 @@ export default function HomePage() {
     </main>
   );
 }
+
+
