@@ -3,9 +3,12 @@
 import React from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import LogoutButton from "@/components/Logout";
 
 export default function Header() {
   const pathname = usePathname();
+
+  const logoLink = ["/Dashboard", "/user", "/DailyRoutes", "/bookings"].includes(pathname) ? "/Dashboard" : "/home";
 
   return (
     <header className="bg-white h-auto sm:h-[88px] w-full bg-no-repeat bg-center flex flex-col sm:flex-row items-center justify-between px-4 shadow-md">
@@ -15,7 +18,7 @@ export default function Header() {
           className="h-16 sm:h-20" // Ajuste del tamaño de la imagen en dispositivos pequeños
           alt="Logo"
         />
-        <Link href="/home">
+        <Link href={logoLink}>
           <span className="ml-2 sm:ml-4 font-bold font-carter-one text-3xl sm:text-4xl">
             C L I K A
           </span>
@@ -41,24 +44,29 @@ export default function Header() {
 
             <Link href="/sign-up">
               <button className="btn w-full sm:w-auto">Registrarse</button>
-              </Link>
-
+            </Link>
           </div>
         </>
       )}
       {pathname === "/DailyRoutes" && (
         <>
           <div className="border-b border-gray-300 pb-2 flex flex-col sm:flex-row sm:gap-2 gap-1 w-full sm:w-auto mt-2 sm:mt-0">
-            <button className="btn w-full sm:w-auto" >Rentar 🚲</button>
-            <button className="btn w-full sm:w-auto">Rutas sugeridas 📍</button>
+            <button className="btn w-full sm:w-auto">Rentar 🚲</button>
+            <a href="/DailyRoutes">
+              <button className="btn w-full sm:w-auto">
+                Rutas sugeridas 📍
+              </button>
+            </a>
           </div>
           <div className="flex flex-col sm:flex-row sm:gap-4 gap-2 border-b border-gray-300 pb-2 w-full sm:w-auto mt-2 sm:mt-0">
-            <button className="btn w-full sm:w-auto">Mis reservas 🗓️</button>
+            <a href="/Bookings">
+              <button className="btn w-full sm:w-auto">Mis reservas 🗓️</button>
+            </a>
             <div className="flex items-center">
-              <button className="btn w-full sm:w-auto">Mi perfil 👤</button>
-              <button className="btn w-8 h-8 ml-2 text-sm flex items-center justify-center">
-                ❌
-              </button>
+              <a href="/user">
+                <button className="btn w-full sm:w-auto">Mi perfil 👤</button>
+              </a>
+              <LogoutButton />
             </div>
           </div>
         </>
@@ -67,15 +75,67 @@ export default function Header() {
         <>
           <div className="border-b border-gray-300 pb-2 flex flex-col sm:flex-row sm:gap-2 gap-1 w-full sm:w-auto mt-2 sm:mt-0">
             <button className="btn w-full sm:w-auto">Rentar 🚲</button>
-            <button className="btn w-full sm:w-auto">Rutas sugeridas 📍</button>
+            <a href="/DailyRoutes">
+              <button className="btn w-full sm:w-auto">
+                Rutas sugeridas 📍
+              </button>
+            </a>
           </div>
           <div className="flex flex-col sm:flex-row sm:gap-4 gap-2 border-b border-gray-300 pb-2 w-full sm:w-auto mt-2 sm:mt-0">
-            <button className="btn w-full sm:w-auto">Mis reservas 🗓️</button>
+            <a href="/Bookings">
+              <button className="btn w-full sm:w-auto">Mis reservas 🗓️</button>
+            </a>
             <div className="flex items-center">
-              <button className="btn w-full sm:w-auto">Mi perfil 👤</button>
-              <button className="btn w-8 h-8 ml-2 text-sm flex items-center justify-center">
-                ❌
+              <a href="/user">
+                <button className="btn w-full sm:w-auto">Mi perfil 👤</button>
+              </a>
+              <LogoutButton />
+            </div>
+          </div>
+        </>
+      )}
+      {pathname === "/user" && (
+        <>
+          <div className="border-b border-gray-300 pb-2 flex flex-col sm:flex-row sm:gap-2 gap-1 w-full sm:w-auto mt-2 sm:mt-0">
+            <button className="btn w-full sm:w-auto">Rentar 🚲</button>
+            <a href="/DailyRoutes">
+              <button className="btn w-full sm:w-auto">
+                Rutas sugeridas 📍
               </button>
+            </a>
+          </div>
+          <div className="flex flex-col sm:flex-row sm:gap-4 gap-2 border-b border-gray-300 pb-2 w-full sm:w-auto mt-2 sm:mt-0">
+            <a href="/bookings">
+              <button className="btn w-full sm:w-auto">Mis reservas 🗓️</button>
+            </a>
+            <div className="flex items-center">
+              <a href="/user">
+                <button className="btn w-full sm:w-auto">Mi perfil 👤</button>
+              </a>
+              <LogoutButton />
+            </div>
+          </div>
+        </>
+      )}
+      {pathname === "/bookings" && (
+        <>
+          <div className="border-b border-gray-300 pb-2 flex flex-col sm:flex-row sm:gap-2 gap-1 w-full sm:w-auto mt-2 sm:mt-0">
+            <button className="btn w-full sm:w-auto">Rentar 🚲</button>
+            <a href="/DailyRoutes">
+              <button className="btn w-full sm:w-auto">
+                Rutas sugeridas 📍
+              </button>
+            </a>
+          </div>
+          <div className="flex flex-col sm:flex-row sm:gap-4 gap-2 border-b border-gray-300 pb-2 w-full sm:w-auto mt-2 sm:mt-0">
+            <a href="/Bookings">
+              <button className="btn w-full sm:w-auto">Mis reservas 🗓️</button>
+            </a>
+            <div className="flex items-center">
+              <a href="/user">
+                <button className="btn w-full sm:w-auto">Mi perfil 👤</button>
+              </a>
+              <LogoutButton />
             </div>
           </div>
         </>
