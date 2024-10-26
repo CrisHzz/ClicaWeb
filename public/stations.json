@@ -1,0 +1,719 @@
+{
+  "locations": [
+    { 
+      "id": 1,
+      "name": "METRO-BELLO",
+      "address": "CARRERA 46 # 45B - 55",
+      "city": "BELLO",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.332147,
+        "longitude": -75.553787
+      }
+    },
+    {
+      "id": 2,
+      "name": "CHOZA MARCOFIDEL",
+      "address": "Avenida 50A # 52 -44",
+      "city": "BELLO",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.336408,
+        "longitude": -75.559398
+      }
+    },
+    {
+      "id": 3,
+      "name": "BUENA INSTANCIA",
+      "address": "Diagonal 55#45-46",
+      "city": "BELLO",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.339391,
+        "longitude": -75.553826
+      }
+    },
+    {
+      "id": 4,
+      "name": "BAHIA VEHICULAR",
+      "address": "Carrera 72A # 78b",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.27745,
+        "longitude": -75.581137
+      }
+    },
+    {
+      "id": 5,
+      "name": "Ciudadela Universitaria Robledo",
+      "address": "Transversal 73, junto a la portería peatonal de la institución universitaria Pascual Bravo",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.273063,
+        "longitude": -75.588642
+      }
+    },
+    {
+      "id": 6,
+      "name": "Robledo",
+      "address": "CALLE 65 - CARRERA 78A",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.272985,
+        "longitude": -75.592145
+      }
+    },
+    {
+      "id": 7,
+      "name": "CUATRO VIENTOS",
+      "address": "Calle 55 - carrera 77C",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.267655,
+        "longitude": -75.591479
+      }
+    },
+    {
+      "id": 8,
+      "name": "LAS PIEDRITAS",
+      "address": "Calle 52 A - carrera 78 B",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.265015,
+        "longitude": -75.594341
+      }
+    },
+    {
+      "id": 9,
+      "name": "LOS COLORES",
+      "address": "CALLE 51 - CARRERA 78B",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.263397,
+        "longitude": -75.59507
+      }
+    },
+    {
+      "id": 10,
+      "name": "BATALLON",
+      "address": "CALLE 49B #78A-2",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.262129,
+        "longitude": -75.595048
+      }
+    },
+    {
+      "id": 11,
+      "name": "FLORESTA",
+      "address": "CALLE 48 # 79-46",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.259058,
+        "longitude": -75.597391
+      }
+    },
+    {
+      "id": 12,
+      "name": "San Pedro y San Pablo",
+      "address": "CALLE 48 - CARRERA 77A",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.25839,
+        "longitude": -75.594325
+      }
+    },
+    {
+      "id": 13,
+      "name": "Orquídeas",
+      "address": "CARRERA 74 # 52 - 100",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.262011,
+        "longitude": -75.589374
+      }
+    },
+    {
+      "id": 14,
+      "name": "LOS COLORES U",
+      "address": "CARRERA 70 # TRANSVERSAL 51A",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.260207,
+        "longitude": -75.585257
+      }
+    },
+    {
+      "id": 15,
+      "name": "NACHO",
+      "address": "CALLE 59A # 64C - 44",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.260685,
+        "longitude": -75.57957
+      }
+    },
+    {
+      "id": 16,
+      "name": "PARQUE DE LOS ENAMORADOS",
+      "address": "CALLE 49 B # 67B - 45",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.256693,
+        "longitude": -75.584746
+      }
+    },
+    {
+      "id": 17,
+      "name": "Carlos E. Restrepo",
+      "address": "CARRERA 64B - CALLE 50",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.25571,
+        "longitude": -75.578864
+      }
+    },
+    {
+      "id": 18,
+      "name": "Suramericana",
+      "address": "CALLE 47D # 65-92",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.252644,
+        "longitude": -75.584527
+      }
+    },
+    {
+      "id": 19,
+      "name": "ESTADIO",
+      "address": "CALLE 47D # 70-82",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.253207,
+        "longitude": -75.588448
+      }
+    },
+    {
+      "id": 20,
+      "name": "San Juan",
+      "address": "CALLE 44 - CARRERA 70",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    { 
+      "id": 21,
+      "name": "LA 65",
+      "address": "CARRERA 65 # 44-41",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.249119,
+        "longitude": -75.588781
+      }
+    },
+    {
+      "id": 22,
+      "name": "Primer Parque de Laureles",
+      "address": "CARRERA 39D # 73-95",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.246114,
+        "longitude": -75.592832
+      }
+    },
+    {
+      "id": 23,
+      "name": "Segundo Parque de Laureles",
+      "address": "TRANSVERSAL 39B - CIRCULAR 74A",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.245049,
+        "longitude": -75.596751
+      }
+    },
+    {
+      "id": 24,
+      "name": "UPB",
+      "address": "CARRERA 70 # CIRCULAR 1-50",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.241602,
+        "longitude": -75.591646
+      }
+    },
+    {
+      "id": 25,
+      "name": "PARQUES DEL RIO",
+      "address": "CALLE 42C - CARRERA 63AA",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.244784,
+        "longitude": -75.580072
+      }
+    },
+    {
+      "id": 26,
+      "name": "Unicentro",
+      "address": "CALLE 34 # 66A - 57",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.239875,
+        "longitude": -75.587009
+      }
+    },
+    {
+      "id": 27,
+      "name": "ROSALES",
+      "address": "CARRERA 70 # 29-73",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.235,
+        "longitude": -75.59
+      }
+    },
+    {
+      "id": 28,
+      "name": "NUTIBARA",
+      "address": "CARRERA 65 # 30-1",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.23,
+        "longitude": -75.59
+      }
+    },
+    {
+      "id": 29,
+      "name": "LA INDUSTRY",
+      "address": "CARRERA 52 # 29B-138",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.229,
+        "longitude": -75.59
+      }
+    },
+    {
+      "id": 30,
+      "name": "Juan Pablo II",
+      "address": "CARRERA 70 # 16-18",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.229,
+        "longitude": -75.59
+      }
+    },
+    {
+      "id": 31,
+      "name": "Terminal del Sur",
+      "address": "Carrera 67 - calle 10",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.229,
+        "longitude": -75.59
+      }
+    },
+    {
+      "id": 32,
+      "name": "Parque el Artista",
+      "address": "CALLE 63 - CARRERA 52",
+      "city": "ITAGUI",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.17867,
+        "longitude": -75.603241
+      }
+    },
+    {
+      "id": 33,
+      "name": "Doña Marta",
+      "address": "CARRERA 52B # 56 - 12",
+      "city": "ITAGUI",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.175817,
+        "longitude": -75.60613
+      }
+    },
+    {
+      "id": 34,
+      "name": "Metróplus Cami",
+      "address": "CARRERA 53 # 51A - 29",
+      "city": "ITAGUI",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.175829,
+        "longitude": -75.607131
+      }
+    },
+    {
+      "id": 35,
+      "name": "Parque Itaguí",
+      "address": "CARRERA 51 - CALLE 51",
+      "city": "ITAGUI",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.17281,
+        "longitude": -75.609226
+      }
+    },
+    {
+      "id": 36,
+      "name": "W PARK",
+      "address": "CALLE 53 - CARRERA 49",
+      "city": "ITAGUI",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.251532,
+        "longitude": -75.565409
+      }
+    },
+    {
+      "id": 37,
+      "name": "Metro Itaguí I",
+      "address": "CALLE 50 - VIA INTERNA DEL METRO",
+      "city": "ITAGUI",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.163442,
+        "longitude": -75.605801
+      }
+    },
+    {
+      "id": 38,
+      "name": "PARQUE DE LA ESTRELLA",
+      "address": "CALLE 50 - VIA INTERNA DEL METRO",
+      "city": "LA ESTRELLA",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.157957,
+        "longitude": -75.643318
+      }
+    },
+    {
+      "id": 39,
+      "name": "ESTACIÓN METRO LA ESTRELLA",
+      "address": "ESTACIÓN METRO LA ESTRELLA",
+      "city": "LA ESTRELLA",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.152606,
+        "longitude": -75.626115
+      }
+    },
+    {
+      "id": 40,
+      "name": "Puente de la 77 Sur",
+      "address": "CALLE 77 SUR CARRERA 48",
+      "city": "LA ESTRELLA",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.15169,
+        "longitude": -75.624365
+      }
+    },
+    {
+      "id": 41,
+      "name": "Entre amigos",
+      "address": "CARRERA 46B - CALLE 72 SUR",
+      "city": "SABANETA",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.152343,
+        "longitude": -75.618113
+      }
+    },
+    {
+      "id": 42,
+      "name": "SABANETA PARK",
+      "address": "CALLE 72 SUR - CARRERA 45",
+      "city": "SABANETA",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "id": 43,
+      "name": "Parque 4 Elementos",
+      "address": "CALLE 66 SUR - CARRERA 43C",
+      "city": "SABANETA",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.152344,
+        "longitude": -75.612868
+      }
+    },
+    {
+      "id": 44,
+      "name": "Puente pan de Queso II",
+      "address": "CARRERA 42 - CALLE 60 SUR",
+      "city": "ENVIGADO",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.15449,
+        "longitude": -75.606322
+      }
+    },
+    {
+      "id": 45,
+      "name": "Metro Envigado Norte",
+      "address": "CARRERA 49 - CALLE 37 SUR",
+      "city": "ENVIGADO",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.168,
+        "longitude": -75.6
+      }
+    },
+    {
+      "id": 46,
+      "name": "Parque Débora Arango",
+      "address": "CALLE 38 SUR - CARRERA 46",
+      "city": "ENVIGADO",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.169,
+        "longitude": -75.583
+      }
+    },
+    {
+      "id": 47,
+      "name": "El MUA",
+      "address": "CARRERA 44 - CALLE 38 SUR",
+      "city": "ENVIGADO",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.1695,
+        "longitude": -75.5835
+      }
+    },
+    {
+      "id": 48,
+      "name": "Porton de Alcalá",
+      "address": "CALLE 39A SUR - CARRERA 43A",
+      "city": "ENVIGADO",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.1688,
+        "longitude": -75.5829
+      }
+    },
+    {
+      "id": 49,
+      "name": "Envigado Centro",
+      "address": "CARRERA 42 - CALLE 37 SUR",
+      "city": "ENVIGADO",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.1692,
+        "longitude": -75.5823
+      }
+    },
+    {
+      "id": 50,
+      "name": "Viva Envigado",
+      "address": "CALLE 32B SUR - CARRERA 48",
+      "city": "ENVIGADO",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.177286,
+        "longitude": -75.590231
+      }
+    },
+    {
+      "id": 51,
+      "name": "VEGAS CALLE 4 SUR",
+      "address": "Calle 4 Sur bajo el puente",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.203726,
+        "longitude": -75.582812
+      }
+    },
+    {
+      "id": 52,
+      "name": "Politécnico",
+      "address": "CARRERA 47 - CALLE 7",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.208876,
+        "longitude": -75.576111
+      }
+    },
+    {
+      "id": 53,
+      "name": "PARQUE LA BAILARINA",
+      "address": "Carrera 45 - calle 7",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.208876,
+        "longitude": -75.576111
+      }
+    },
+    {
+      "id": 54,
+      "name": "Telemedellín",
+      "address": "CARRERA 43F - CALLE 18",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.219141,
+        "longitude": -75.570690
+      }
+    },
+    {
+      "id": 55,
+      "name": "Ciudad del Río",
+      "address": "CARRERA 43F - CALLE 19A",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.221968,
+        "longitude": -75.571598
+      }
+    },
+    {
+      "id": 56,
+      "name": "Distrito Creativo",
+      "address": "CARRERA 46 # 34 - 46",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.234808,
+        "longitude": -75.571753
+      }
+    },
+    {
+      "id": 57,
+      "name": "Plaza Mayor",
+      "address": "CALLE 41 # 55-80",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.242594,
+        "longitude": -75.576100
+      }
+    },
+    {
+      "id": 58,
+      "name": "Plaza de La Libertad",
+      "address": "CALLE 42C # 53A-24",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.245346,
+        "longitude": -75.573116
+      }
+    },
+    {
+      "id": 59,
+      "name": "Parque de Las Luces II",
+      "address": "CARRERA 52A # 44 - 4",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.245518,
+        "longitude": -75.572383
+      }
+    },
+    {
+      "id": 60,
+      "name": "San Antonio",
+      "address": "CARRERA 51 # 46 - 63",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.247737,
+        "longitude": -75.569588
+      }
+    },
+    {
+      "id": 61,
+      "name": "Museo de Antioquia",
+      "address": "CARRERA 52 # 52-36",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.252040,
+        "longitude": -75.568858
+      }
+    },
+    {
+      "id": 62,
+      "name": "Palacio de la Cultura",
+      "address": "CARRERA 51 - CALLE 51 - 47",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.241259,
+        "longitude": -75.571965
+      }
+    },
+    {
+      "id": 63,
+      "name": "Coltejer",
+      "address": "Calle 52 #28A 46",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.249646,
+        "longitude": -75.565867
+      }
+    },
+    {
+      "id": 64,
+      "name": "Ruta N",
+      "address": "CARRERA 52 # 67A-13",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.264524,
+        "longitude": -75.566903
+      }
+    },
+    {
+      "id": 65,
+      "name": "Moravia",
+      "address": "CALLE 82A # 52-29",
+      "city": "MEDELLIN",
+      "state": "ANTIOQUIA",
+      "coordinates": {
+        "latitude": 6.271234,
+        "longitude": -75.566789
+      }
+    }
+  ]
+}
