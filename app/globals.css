@@ -19,7 +19,7 @@ button:hover {
   letter-spacing: 3px;
   background-color: hsl(41, 100%, 50%);
   color: hsl(0, 0%, 100%);
-  box-shadow: rgb(199, 34, 34) 0px 7px 29px 0px;
+  box-shadow: rgb(255, 197, 36) 0px 7px 29px 0px;
 }
 
 button:active {

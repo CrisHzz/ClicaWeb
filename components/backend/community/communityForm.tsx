@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { useUser } from '@clerk/clerk-react'; // Import useUser to get user info
+import { useUser } from '@clerk/clerk-react'; 
 import { createCommunity, getAllCommunities, updateCommunity, deleteCommunity } from '@/components/backend/community/communityService';
 
 interface Comunidades {

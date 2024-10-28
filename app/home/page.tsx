@@ -91,7 +91,8 @@ export default function HomePage() {
           <div className="p-6 space-y-4">
             <h3 className="text-2xl font-bold">Plan Tempo</h3>
             <p className="text-gray-500">¡Viaja a donde quieras por 30 minutos!</p>
-            <div className="text-4xl font-bold">$ 2327 COP</div>
+            <div className="text-4xl font-bold">$2.327 COP</div>
+            <div className="text-sm text-gray-500">($ 0.54 USD)</div>
             <Link href="/sign-up">
             <button className="w-full py-2 px-4 mt-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
           Seleccionar
@@ -111,7 +112,8 @@ export default function HomePage() {
           <div className="p-6 space-y-4">
             <h3 className="text-2xl font-bold">Plan journey</h3>
             <p className="text-gray-500">¡Viaja mensualmente a donde quieras sin pagar por tiempo!</p>
-            <div className="text-4xl font-bold">$ 55250 COP</div>
+            <div className="text-4xl font-bold">$55.250 COP</div>
+            <div className="text-sm text-gray-500">($ 12.75 USD)</div>
             <Link href="/sign-up">
             <button className="w-full py-2 px-4 mt-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
             Seleccionar

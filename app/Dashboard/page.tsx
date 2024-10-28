@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
 import Header from "@/components/Header";
 import MapStations from "@/components/MapStations";
 import { useEffect, useState } from "react";
-import { Station } from "@/types/station";
+import type { Station } from "@/types/station";
 import { crearReserva } from "@/components/backend/bookings/bookingService";
 import { useUser } from "@clerk/nextjs";
 
@@ -102,7 +102,6 @@ export default function Dashboard() {
       await crearReserva(newReservation);
       alert("Reserva creada exitosamente");
       
-      // Reset selections
       setSelectedPaymentMethod(null);
       setStartStation(null);
       setEndStation(null);
@@ -112,11 +111,15 @@ export default function Dashboard() {
     }
   };
 
+  // Define las funciones `onSelectStart` y `onSelectEnd`
+  const onSelectStart = (station: Station) => setStartStation(station);
+  const onSelectEnd = (station: Station) => setEndStation(station);  
+
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <div className="flex flex-1">
-        <div className="w-1/3 p-4 bg-white shadow-md z-10">
+      <div className="flex flex-1 flex-col lg:flex-row">
+        <div className="w-full lg:w-1/3 p-4 bg-white shadow-md z-10">
           <h1 className="text-2xl font-bold mb-4">Bienvenido a clika!</h1>
           <p className="text-lg mb-6">¿A dónde viajamos hoy?</p>
           <div className="space-y-4">
@@ -222,6 +225,8 @@ export default function Dashboard() {
             apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}
             startStation={startStation}
             endStation={endStation}
+            onSelectStart={onSelectStart}
+            onSelectEnd={onSelectEnd}
           />
         </div>
       </div>

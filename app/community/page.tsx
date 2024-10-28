@@ -8,7 +8,6 @@ function page() {
     <div>
       <Header/>
       <CommunityForm/>
-
     </div>
   )
 }

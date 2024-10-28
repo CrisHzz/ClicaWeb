@@ -1,0 +1,455 @@
+{
+    "La Candelaria, Medellin, Antioquia, Colombia": {
+        "ruta 1": [
+            {
+                "name": "Antigua Estación Medellín del Ferrocarril de Antioquia",
+                "coordinates": {
+                    "latitude": 6.244962,
+                    "longitude": -75.571778
+                }
+            },
+            {
+                "name": "Edificio Central de Comfama",
+                "coordinates": {
+                    "latitude": 6.247595,
+                    "longitude": -75.564172
+                }
+            },
+            {
+                "name":"Palacio de Bellas Artes Medellín",
+                "coordinates": {
+                    "latitude": 6.248227,
+                    "longitude": -75.561602
+                }
+
+            },
+            {
+                "name":"Teatro pablo tobon uribe",
+                "coordinates": {
+                    "latitude": 6.247731,
+                    "longitude": -75.559779
+                }
+            }
+        ],
+
+        "ruta 2": [
+            {
+                "name": "EnCiclaCisneros",
+                "coordinates": {
+                    "latitude": 6.249057,
+                    "longitude": -75.574747
+                }
+            },
+            {
+                "name": "Palacio nacional",
+                "coordinates": {
+                    "latitude": 6.248744,
+                    "longitude": -75.570121
+                }
+            },
+            {
+                "name":"Sala Museo Rafael Uribe Uribe",
+                "coordinates": {
+                    "latitude": 6.251613,
+                    "longitude": -75.568812
+                }
+
+            },
+            {
+                "name":"Plaza botero",
+                "coordinates": {
+                    "latitude": 6.251820,
+                    "longitude": -75.568811
+                }
+            }
+        ],
+
+        "ruta 3": [
+            {
+                "name": "encicla cisneros",
+                "coordinates": {
+                    "latitude": 6.246143,
+                    "longitude": -75.571024
+                }
+            },
+            {
+                "name": "Edificio carre",
+                "coordinates": {
+                    "latitude": 6.246143,
+                    "longitude": -75.571024
+                }
+            },
+            {
+                "name":"encicla dian alpujarra",
+
+                "coordinates": {
+                    "latitude": 6.243217,
+                    "longitude": -75.572304
+                }
+
+            }
+   
+        ]
+        
+    },
+
+    "Belén, Medellin, Antioquia, Colombia":{
+        "ruta 1": [
+            {
+                "name": "Terminal del sur",
+                "coordinates": {
+                    "latitude": 6.216698,
+                    "longitude": -75.588628
+                }
+            },
+            {
+                "name": "Buñuelos rellenos barrio antioquia",
+                "coordinates": {
+                    "latitude": 6.225995,
+                    "longitude": -75.585836
+                }
+            },
+            {
+                "name":"Barrio Antioquia Freestyle (La Liga del Barrio)",
+                "coordinates": {
+                    "latitude": 6.227619,
+                    "longitude": -75.586283
+                }
+
+            },
+            {
+                "name":"Rosales",
+                "coordinates": {
+                    "latitude": 6.231534,
+                    "longitude": -75.591387
+                }
+            }
+        ],
+
+        "ruta 2": [
+            {
+                "name":"Rosales",
+                "coordinates": {
+                    "latitude": 6.231534,
+                    "longitude": -75.591387
+                }
+            },
+            {
+                "name": "Estación Metroplus Fátima",
+                "coordinates": {
+                    "latitude": 6.231659,
+                    "longitude": -75.586641
+                }
+            },
+            {
+                "name":"De Lolita Clínica Medellín sede Occidente",
+                "coordinates": {
+                    "latitude": 6.232844,
+                    "longitude": -75.583986
+                }
+
+            },
+            {
+                "name":"Industriales metro plus",
+                "coordinates": {
+                    "latitude": 6.231037,
+                    "longitude": -75.576691
+                }
+            }
+        ],
+
+        "ruta 3": [
+            {
+                "name": "parques del rio encicla",
+                "coordinates": {
+                    "latitude": 6.244784,
+                    "longitude": -75.580072
+                }
+            },
+            {
+                "name": "La Parrillera Restaurante Bar-Alaikúm",
+                "coordinates": {
+                    "latitude": 6.240643,
+                    "longitude": -75.585832
+                }
+            },
+            {
+                "name":"bulerias",
+                "coordinates": {
+                    "latitude": 6.238455,
+                    "longitude": -75.590517
+                }
+
+            }]
+        
+            
+    },
+
+    "LAURELES - ESTADIO":{
+        "ruta 1": [
+            {
+                "name": "San Pedro y San Pablo",
+                "coordinates": {
+                    "latitude": 6.25839,
+                    "longitude": -75.594325
+                }
+            },
+            {
+                "name": "Estadio de futbol Atanasio Girardot",
+                "coordinates": {
+                    "latitude": 6.258388,
+                    "longitude": -75.590418
+                }
+            },
+            {
+                "name":"Teatro Suramericana",
+                "coordinates": {
+                    "latitude": 6.254412,
+                    "longitude": -75.579903
+                }
+
+            },
+            {
+                "name":"Suramericana",
+                "coordinates": {
+                    "latitude": 6.252644,
+                    "longitude": -75.584527
+                }
+            }
+        ],
+
+        "ruta 2": [
+            {
+                "name":"Carlos E. Restrepo ",
+                "coordinates": {
+                    "latitude": 6.25571,
+                    "longitude": -75.578864
+                }
+            },
+            {
+                "name": " Edificio Camacol ",
+                "coordinates": {
+                    "latitude": 6.253534,
+                    "longitude": -75.578661
+                }
+            },
+            {
+                "name":"La macarena",
+                "coordinates": {
+                    "latitude": 6.249358,
+                    "longitude": -75.580973
+                }
+
+            },
+            {
+                "name":"Parques del Río",
+                "coordinates": {
+                    "latitude": 6.243875,
+                    "longitude": -75.579998
+                }
+            }
+        ],
+
+        "ruta 3": [
+            {
+                "name": "Unicentro",
+                "coordinates": {
+                    "latitude": 6.239875,
+                    "longitude": -75.587009
+                }
+            },
+            {
+                "name": "EURO Supermercado",
+                "coordinates": {
+                    "latitude": 6.243949,
+                    "longitude": -75.594081
+                }
+            },
+            {
+                "name":"Primer Parque de Laureles",
+                "coordinates": {
+                    "latitude": 6.246114,
+                    "longitude": -75.592832
+                }
+            },
+            {
+                "name":"Segundo Parque de Laureles",
+                "coordinates": {
+                    "latitude": 6.245049,
+                    "longitude": -75.596751
+                }
+            }
+            ]
+    },
+
+    "El Poblado, Medellín, Antioquia, Colombia":{
+        "ruta 1": [
+            {
+                "name": "Politécnico",
+                "coordinates": {
+                    "latitude": 6.208876,
+                    "longitude": -75.576111
+                }
+            },
+            {
+                "name": "Parque El Poblado",
+                "coordinates": {
+                    "latitude": 6.209956,
+                    "longitude": -75.571068
+                }
+            },
+            {
+                "name":"Parque Lleras",
+                "coordinates": {
+                    "latitude": 6.208763,
+                    "longitude": -75.567788
+                }
+
+            },
+            {
+                "name":"VEGAS CALLE 4 SUR",
+                "coordinates": {
+                    "latitude": 6.203822,
+                    "longitude": -75.578176
+                }
+            }
+        ],
+
+        "ruta 2": [
+            {
+                "name":"Parque de la Bailarina",
+                "coordinates": {
+                    "latitude": 6.208876,
+                    "longitude": -75.576111
+                }
+            },
+            {
+                "name": "Elcielo Medellín Restaurant",
+                "coordinates": {
+                    "latitude": 6.2096,
+                    "longitude": -75.5706
+                }
+            },
+            {
+                "name":"San fernando plaza",
+                "coordinates": {
+                    "latitude": 6.204172,
+                    "longitude": -75.571390
+                }
+
+            },
+            {
+                "name":"VEGAS CALLE 4 SUR",
+                "coordinates": {
+                    "latitude": 6.203822,
+                    "longitude": -75.578176
+                }
+            }
+        ],
+
+        "ruta 3": [
+            {
+                "name":"VEGAS CALLE 4 SUR",
+                "coordinates": {
+                    "latitude": 6.203822,
+                    "longitude": -75.578176
+                }
+            },
+            {
+                "name": "Summit Adventure Park Medellín",
+                "coordinates": {
+                    "latitude": 6.214290,
+                    "longitude": -75.581812
+                }
+            },
+            {
+                "name": "Politécnico",
+                "coordinates": {
+                    "latitude": 6.208876,
+                    "longitude": -75.576111
+                }
+            }
+        ]
+            
+                
+    },
+
+    "La América, Medellin, Antioquia, Colombia":{
+        "RUTA 1": [
+            {
+                "name": "Floresta",
+                "coordinates": {
+                    "latitude": 6.259058,
+                    "longitude": -75.597391
+                }
+            },
+            {
+                "name": "Unidad Deportiva La Floresta",
+                "coordinates": {
+                    "latitude": 6.256030,
+                    "longitude": -75.604753
+                }
+            },
+            {
+                "name":"C4TA",
+                "coordinates": {
+                    "latitude": 6.252220,
+                    "longitude": -75.614284
+                }
+
+            }
+
+        ],
+
+        "RUTA 2": [
+            {
+                "name": "Floresta",
+                "coordinates": {
+                    "latitude": 6.259058,
+                    "longitude": -75.597391
+                }
+            },
+            {
+                "name": "Centro Comercial San Juan La 80",
+                "coordinates": {
+                    "latitude": 6.250758,
+                    "longitude": -75.602828
+                }
+            },
+            {
+                "name":"C4TA",
+                "coordinates": {
+                    "latitude": 6.252220,
+                    "longitude": -75.614284
+                }
+
+            }
+
+        ],
+
+        "RUTA 3": [
+            {
+                "name": "Maria mulata",
+                "coordinates": {
+                    "latitude": 6.250541,
+                    "longitude": -75.594752
+                }
+            },
+            {
+                "name": "CC la america",
+                "coordinates": {
+                    "latitude": 6.250710,
+                    "longitude": -75.604944
+                }
+            },
+            {
+                "name":"C4TA",
+                "coordinates": {
+                    "latitude": 6.252220,
+                    "longitude": -75.614284
+                }
+
+            }
+        ]
+    }
+}

@@ -1,7 +1,7 @@
 // src/types/station.ts
 
 export interface Station {
-    id: number;
+    id?: number;
     name: string;
     address: string;
     city: string;
