@@ -120,7 +120,7 @@ export default function Component() {
                         </div>
                     </div>
                     <div className="w-full md:w-2/3">
-                        <div className="bg-white rounded-lg shadow-md overflow-hidden h-[600px]">
+                        <div className="bg-white rounded-lg shadow-md overflow-hidden h-[700px]">
                             <MapComponent />
                         </div>
                     </div>

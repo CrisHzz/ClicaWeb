@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
 import React, { useState, useCallback } from 'react';
-import { GoogleMap, LoadScript, DirectionsService, DirectionsRenderer } from '@react-google-maps/api';
+import { GoogleMap, LoadScript, DirectionsRenderer, Marker, InfoWindow } from '@react-google-maps/api';
 import dailyRoutes from '@/public/dailyRoutes.json';
 
 const medellinCenter = {
@@ -23,16 +23,16 @@ interface Routes {
   };
 }
 
-
 const containerStyle = {
   width: '100%',
-  height: '50vh', // Cambiado a una unidad relativa
+  height: '50vh',
 };
 
 const MapComponent: React.FC = () => {
   const [directions, setDirections] = useState<google.maps.DirectionsResult | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [map, setMap] = useState<google.maps.Map | null>(null);
+  const [routePoints, setRoutePoints] = useState<Route[]>([]); // Puntos de la ruta actual
 
   const handleMapLoad = useCallback((map: google.maps.Map) => {
     setMap(map);
@@ -43,8 +43,9 @@ const MapComponent: React.FC = () => {
     if (routes) {
       const routeKeys = Object.keys(routes);
       const selectedRoute = routes[routeKeys[currentIndex % routeKeys.length]];
+      setRoutePoints(selectedRoute); // Actualiza los puntos de la ruta actual
 
-      const waypoints = selectedRoute.slice(1, -1).map((point: any) => ({
+      const waypoints = selectedRoute.slice(1, -1).map((point) => ({
         location: new google.maps.LatLng(point.coordinates.latitude, point.coordinates.longitude),
         stopover: true,
       }));
@@ -89,6 +90,15 @@ const MapComponent: React.FC = () => {
           onLoad={handleMapLoad}
         >
           {directions && <DirectionsRenderer directions={directions} />}
+
+          {/* Muestra los marcadores en los puntos de la ruta */}
+          {routePoints.map((point, index) => (
+            <Marker
+              key={`${point.name}-${index}`}
+              position={{ lat: point.coordinates.latitude, lng: point.coordinates.longitude }}
+              label={`${String.fromCharCode(65 + index)}`} // Etiquetas "A", "B", "C", etc.
+            />
+          ))}
         </GoogleMap>
       </LoadScript>
 
@@ -123,6 +133,22 @@ const MapComponent: React.FC = () => {
         >
           La Candelaria
         </button>
+      </div>
+
+      {/* Texto que muestra las paradas de la ruta actual */}
+      <div className="mt-4 text-center">
+        {routePoints.length > 0 && (
+          <div>
+            <p className="font-semibold">Ruta Actual:</p>
+            <ul className="list-none">
+              {routePoints.map((point, index) => (
+                <li key={`${point.name}-${index}`}>
+                  <span className="font-bold">{String.fromCharCode(65 + index)}:</span> {point.name}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </div>
   );
